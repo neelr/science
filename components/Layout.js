@@ -27,6 +27,10 @@ export default class Layout extends React.Component {
 			</Box>
 			<Box mx="auto" />
 		</Flex>
+		<Flex sx={{height:"50px",my:"30px",flexDirection:"column"}}>
+			<Text m="auto">Made with 💖 by <Link href="https://github.com/neelr">@neelr</Link></Text>
+			<Link m="auto" href="https://github.com/neelr/science">Source</Link>
+		</Flex>
       </div>
     );
   }

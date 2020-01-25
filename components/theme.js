@@ -28,12 +28,13 @@ export default {
     }
   }, variants: {
 	card:{ 
+    alignSelf:"flex-start",
 		backgroundColor:"#fff",
     margin:"10px",
 		mx:["auto","10px"],
 		transition:"all 0.3s ease",
 		boxShadow: "card", 
-		width: ["200px","400px",], 
+		width: ["300px","400px",], 
 		borderRadius:"5px",
 		overflow:"hidden",
 		":hover": { 
@@ -51,6 +52,9 @@ export default {
     },
     link: {
       color: 'primary',
+      ":hover": {
+        color:"white"
+      }
     },
     nav: {
       fontSize: 1,

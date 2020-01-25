@@ -4,31 +4,38 @@ import {
     Card,
     Image,
     Heading,
-    Text
-  } from 'rebass'
+    Text,
+    Flex,
+    Link
+} from 'rebass'
 
 
 export default class Index extends React.Component {
     render = () => {
-        return(
-              <Box width={256}>
-                <Card
-                sx={{
-                    p: 1,
-                    borderRadius: 2,
-                    boxShadow: '0 0 16px rgba(0, 0, 0, .25)',
-                }}>
-                <Image src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=2048&q=20" />
-                <Box px={2}>
-                    <Heading as='h3'>
-                    Salt
-                    </Heading>
-                    <Text fontSize={0}>
-                    Can me get salt
-                    </Text>
-                </Box>
-                </Card>
+        return (
+            <Box>
+                <Heading my="25px">Science Fair Projects</Heading>
+                <Flex flexWrap='wrap' mx={-2}>
+                    <Card variant="card">
+                        <Link variant="normal" href="/projects/recyclesmart">
+                            <Image src="/images/state_recyclesmart.JPG" sx={{ width: "100%" }} />
+                        <Box p="10px" color="black">
+                            <Heading my={2} sx={{ fontSize: [2,4] }}>RecycleSmart</Heading>
+                            <Text>An app that uses AI to sort and recycle waste!</Text>
+                        </Box>
+                        </Link>
+                    </Card>
+                    <Card variant="card">
+                        <Link variant="normal" href="/projects/whats-in-your-water">
+                            <Image src="/images/state_recyclesmart.JPG" sx={{ width: "100%" }} />
+                        <Box p="10px" color="black">
+                            <Heading my={2} sx={{ fontSize: [2,4] }}>What's in Your Water?</Heading>
+                            <Text>An experiment to convince people to use tap water!</Text>
+                        </Box>
+                        </Link>
+                    </Card>
+                </Flex>
             </Box>
-        )
+            )
     }
 }

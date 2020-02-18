@@ -13,8 +13,8 @@ import {
 export default class Index extends React.Component {
     render = () => {
         return (
-            <Box>
-                <Heading my="25px">Science Fair Projects</Heading>
+            <Flex flexDirection="column">
+                <Heading m="50px" fontSize={[5,6]}>Science Fair Projects</Heading>
                 <Flex flexWrap='wrap' mx={-2}>
                     <Card variant="card">
                         <Link variant="normal" href="/projects/recyclesmart">
@@ -44,7 +44,7 @@ export default class Index extends React.Component {
                         </Link>
                     </Card>
                 </Flex>
-            </Box>
+            </Flex>
             )
     }
 }

@@ -51,9 +51,9 @@ export default {
       borderRadius: 'circle',
     },
     link: {
-      color: 'primary',
+      color: 'white',
       ":hover": {
-        color:"white"
+        color:"grey"
       }
     },
     nav: {

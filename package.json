@@ -4,7 +4,8 @@
   "description": "Science fair website",
   "main": "app.js",
   "scripts": {
-    "start": "next"
+    "start": "next",
+    "build": "next build && next export"
   },
   "author": "neelr",
   "license": "MIT",

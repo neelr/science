@@ -4,8 +4,20 @@
   "description": "Science fair website",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "next"
   },
   "author": "neelr",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@mdx-js/loader": "^1.5.5",
+    "@next/mdx": "^9.2.1",
+    "@rebass/preset": "^4.0.5",
+    "@rebass/preset-material": "^4.0.5",
+    "emotion-theming": "^10.0.27",
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "rebass": "^4.0.7",
+    "theme-ui": "^0.3.1"
+  }
 }

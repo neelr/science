@@ -35,7 +35,7 @@ export default class Index extends React.Component {
                         </Link>
                     </Card>
                     <Card variant="card">
-                        <Link variant="normal" href="#">
+                        <Link variant="normal" href="/ScienceFair2020.html">
                             <Image src="/images/earthquake.png" sx={{ width: "100%" }} />
                         <Box p="10px" color="black">
                             <Heading my={2} sx={{ fontSize: [2,4] }}>Earthquake Prediction</Heading>

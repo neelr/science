@@ -15,7 +15,7 @@
     "@rebass/preset": "^4.0.5",
     "@rebass/preset-material": "^4.0.5",
     "emotion-theming": "^10.0.27",
-    "next": "^9.2.1",
+    "next": "^9.3.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "rebass": "^4.0.7",
